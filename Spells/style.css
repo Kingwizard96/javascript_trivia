@@ -28,6 +28,7 @@ body{
 }
 
 .info_box{
+    display: none;
     width: 540px;
     background:#999;
     border-radius: 5px;
@@ -78,4 +79,23 @@ body{
     font-size: 15px;
     font-weight: 500;
     cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.buttons button.restart{
+    color:#999;
+    background: linear-gradient(#6f1313,#777);
+}
+
+.buttons button.restart:hover{
+    background:-moz-linear-gradient(#999,#6f1313);
+}
+
+.buttons button.quit{
+    color:#6f1313
+}
+
+.buttons button.quit:hover{
+    color: #999;
+    background:linear-gradient(#777,#6f1313);
 }
