@@ -1,39 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Javascript Trivia Game</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <!-- google fonts will be used on webpage -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,300;1,400;1,600&display=swap" rel="stylesheet">
 
-<!-- google fonts will be used on webpage -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,300;1,400;1,600&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" type="text/css" href="./Spells/style.css" />
+  <title>Basic Web Develoment Trivia</title>
 
-
-    <link rel="stylesheet" href="./Spells/style.css" />
 </head>
-<body>
-    <!-- start quiz button -->
-    <div class="start_btn"><button>Start Quiz</button></div>
 
-    <!-- info box -->
-    <div class="info_box">
-        <div class="info_title">
-            <span> Rules of this Game</span>
-        </div>
-        <div class="info_list">
-            <div class="info">1.You will be given <span>60 seconds</span> to answer a collection of questions</div>
-            <div class="info">2.You will lose 10 seconds for every chosen wrong answer </div>
-            <div class="info">3.You can't exit from the Quiz once started playing</div>
-            <div class="info">4.You can gain 5 seconds if picked correct answer</div>
-        </div>
-        <div class="buttons">
-            <button class="quit">Exit Quiz</button>
-            <button class="restart">Continue</button>
-            </div>
-        </div>
+<body>
+  <input id="view-scores" type="button" value="View Scores">
+  <span id="timer">Time: 0</span>
+  <div id="scores-div"></div>
+  <br>
+  <div id="question-div"></div>
+  <br>
+  <div id="choices"></div>
+  <br>
+  <form id="results"></form>
+  <div id="buttons">
+    <input id="start-button" type="button" value="Start Quiz">
+  </div>
+  <script src="./Spells/questions.js"></script>
+  <script src="./Spells/script.js"></script>
 
 </body>
-<script src="./Spells/script.js"></script>
+
+
 </html>
