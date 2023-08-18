@@ -26,7 +26,7 @@ var questions = [
 
     {
       title: "Which tag is used to create a hyperlink?",
-      multiChoice: ["<img>","<a>", "<dl>", "link"],
+      multiChoice: ["<img>","<a>", "<dl>", "<link>"],
       answer: "<a>"
     }
 

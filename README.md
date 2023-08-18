@@ -25,5 +25,4 @@ THEN I can save my initials and my score
 
 
 
-![Getting Started](Spells/Screenshot%202023-08-17%20at%206.17.41%20PM.png)
-![Getting Started](Spells/Screenshot%202023-08-17%20at%206.17.59%20PM.png)
+

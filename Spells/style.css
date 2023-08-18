@@ -21,7 +21,7 @@
     transform: (-50%,-50%);
     font-size: 25px;
     font-weight:  500;
-    color: blanchedalmond;
+    color: oldlace;
     padding: 15px 30px;
     outline: none;
     border: none;
@@ -49,10 +49,17 @@
   }
 
 
+#choices {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+
   button {
     border-radius: 8px;
-    background-color: #777;
-    color: #2d4d6c;
+    background:linear-gradient(#777,#2d4d6c);
+    color: #4b1107;
     cursor: pointer;
     font-size:medium;
     letter-spacing:normal;
@@ -67,11 +74,7 @@
   }
   
   
-  main {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
+
   
   .large-font {
     font-size: 3.5em;
