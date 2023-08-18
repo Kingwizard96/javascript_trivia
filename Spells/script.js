@@ -1,7 +1,7 @@
-
+// trivia time
 let secondsLeft = 59;
 
-//the element that displays the time
+//we want a timer that displays the time
 let timer = document.getElementById("timer");
 
 //div for high scores
@@ -89,7 +89,7 @@ function displayQuestions() {
   }
 }
 
-
+// function to capture users score
 function captureUserScore() {
   timer.remove();
   choices.textContent = "";
@@ -138,6 +138,8 @@ const removeEls = (...els) => {
   for (let el of els) el.remove();
 }
 
+//want to be able to keep other scores 
+
 function displayAllScores() {
   removeEls(timer, startButton, results);
   let scoresArray = defineScoresArray(storedArray, emptyArray);
@@ -162,6 +164,8 @@ function viewScores() {
   });
 }
 
+//  get rid of previous scores
+
 function clearScoresBtn() {    
   let clearBtn = document.createElement("input");
   clearBtn.setAttribute("type", "button");
@@ -173,6 +177,8 @@ function clearScoresBtn() {
   })
   scoresDiv.append(clearBtn)
 }
+
+// go back function
 
 function goBackBtn() {
   let backBtn = document.createElement("input");
