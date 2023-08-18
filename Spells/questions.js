@@ -6,15 +6,15 @@ var questions = [
     },
   
     {
-      title: "Within a loop, the 'break' keyword may be used to do what?",
-      multiChoice: ["break your competitors code", "exit the loop immediately", "repeat the loop", "indicate a stopping condition"],
-      answer: "exit the loop immediately"
+      title: "Inside which element do you put Javascript",
+      multiChoice: ["<var>", "<script>", "<section>", "<code>"],
+      answer: "<script>"
     },
   
     {
-      title: "Properties in a JavaScript oject are often refferred to as what?",
-      multiChoice: ["dot walking", "key-value pairs", "nested properties", "undefined"],
-      answer: "key-value pairs"
+      title: "How do you write 'Hello,world' in alert-box?",
+      multiChoice: ["alert('hello,world');", "msg('hello,world');", "alertBox('hello,world');", "msgBox('hello,world');"],
+      answer: "alert('hello,world');"
     },
   
     {
@@ -23,9 +23,11 @@ var questions = [
       answer: ".push()"
     },
   
+
     {
-      title: "What is a callback function?",
-      multiChoice: ["a function that accepts an array as an argument", "I function that performs an HTTP request", "a data type similar to a string or a boolean", "a function that is passed into another function as an argument"],
-      answer: "a function that is passed into another function as an argument"
+      title: "Which tag is used to create a hyperlink?",
+      multiChoice: ["<img>","<a>", "<dl>", "link"],
+      answer: "<a>"
     }
+
 ];  

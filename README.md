@@ -3,7 +3,6 @@ Kingwizard's javascript trivia game
 ## User Story
 
 ```
-AS A coding boot camp student
 I WANT to take a timed quiz on JavaScript fundamentals that stores high scores
 SO THAT I can gauge my progress compared to my peers
 ```
@@ -23,3 +22,7 @@ THEN the game is over
 WHEN the game is over
 THEN I can save my initials and my score
 '''
+
+
+![Getting Started](Spells/Screenshot%202023-08-17%20at%206.17.41%20PM.png)
+![Getting Started](Spells/Screenshot%202023-08-17%20at%206.17.59%20PM.png)
